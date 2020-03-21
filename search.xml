@@ -12,6 +12,31 @@
 </ol>
 <p>给出一些例子代码：</p>
 <pre><code>return shell_exec(&quot;echo $input | $markdown_script&quot;);</code></pre></blockquote>
+<h2 id="标签外挂"><a href="#标签外挂" class="headerlink" title="标签外挂"></a>标签外挂</h2><h3 id="style-simple-modern-flat-disabled"><a href="#style-simple-modern-flat-disabled" class="headerlink" title="style:simple,modern,flat,disabled"></a>style:simple,modern,flat,disabled</h3>{% note default %}
+default 提示块标签
+{% endnote %}
+
+{% note primary no-icon %}
+primary 提示块标签
+{% endnote %}
+
+{% note success %}
+success 提示块标签
+{% endnote %}
+
+{% note info %}
+info 提示块标签
+{% endnote %}
+
+{% note warning %}
+warning 提示块标签
+{% endnote %}
+
+{% note danger %}
+danger 提示块标签
+{% endnote %}
+
+
 <hr>
 <p>这是一个普通段落：</p>
 <pre><code>这是一个代码区块。</code></pre>]]></content>
