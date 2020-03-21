@@ -1,26 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>test_my_site</title>
-    <url>/2020/02/12/test-my-site/</url>
-    <content><![CDATA[]]></content>
+    <title>第三个博客</title>
+    <url>/2020/02/14/%E7%AC%AC%E4%B8%89%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h5 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h5><blockquote>
+<h2 id="这是一个二级区块代码"><a href="#这是一个二级区块代码" class="headerlink" title="这是一个二级区块代码"></a>这是一个二级区块代码</h2></blockquote>
+<blockquote>
+<h2 id="这是一个标题。"><a href="#这是一个标题。" class="headerlink" title="这是一个标题。"></a>这是一个标题。</h2><ol>
+<li>这是第一行列表项。</li>
+<li>这是第二行列表项。</li>
+</ol>
+<p>给出一些例子代码：</p>
+<pre><code>return shell_exec(&quot;echo $input | $markdown_script&quot;);</code></pre></blockquote>
+<hr>
+<p>这是一个普通段落：</p>
+<pre><code>这是一个代码区块。</code></pre>]]></content>
+      <tags>
+        <tag>测试</tag>
+      </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/02/12/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+    <title>第二个博客</title>
+    <url>/2020/02/14/%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="这是一个最高级标题"><a href="#这是一个最高级标题" class="headerlink" title="这是一个最高级标题"></a>这是一个最高级标题</h1><h2 id="这是一个二级标题"><a href="#这是一个二级标题" class="headerlink" title="这是一个二级标题"></a>这是一个二级标题</h2><blockquote>
+<p>this is hte first level of quoting</p>
+<blockquote>
+<p>this is nested blockquote</p>
+</blockquote>
+<p>back to the first level</p>
+</blockquote>
+<ul>
+<li><p>red</p>
+</li>
+<li><p>blue</p>
+</li>
+<li><p>green</p>
+</li>
+<li><p>项目标记后至少添加一个空格或者制表符</p>
+</li>
+</ul>
+<ul>
+<li><p>列表项目可以包含多个段落，每个项目下的段落都被徐缩进四个空格获知额一个制表符</p>
+</li>
+<li><blockquote>
+<p>列表项目内的引进</p>
+</blockquote>
+</li>
+<li><p>列表内放区块：</p>
+</li>
+<li><daima>
+代码区块只需要缩进四个空格或者一个制表符
+代码区块会一直持续到没有缩进的那行
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+</li>
+</ul>
+<p>分割线：你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。</p>
+<hr>
+<hr>
+<hr>
+<hr>
+<p>这是[一个例子]（http：//adfd.com/)</p>
+<hr>
+<p>强调</p>
+<p><em>强调</em><br><strong>强调</strong><br>用<code>反引号</code>标记代码</p>
 ]]></content>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一篇博客</title>
+    <url>/2020/02/14/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>#一级标题<br>##二级标题</p>
+<p>一个段落，检测其具体作用，以及表现形式。</p>
+<p>第二个段落，作用同上。</p>
+<blockquote>
+<p>这是一个区块代码</p>
+</blockquote>
+<blockquote>
+<p>这是第二个区块代码</p>
+</blockquote>
+<blockquote>
+<p>##这是一个二级区块代码</p>
+</blockquote>
+<p>这是一个<em>强调</em>测试</p>
+<p>*这<br>*是<br>*一个<br>*无序<br>*列表</p>
+<p>1.这是一个<br>2.有序<br>3.列表</p>
+<p>这是一个链接测试(<a href="http://example.com/&quot;这是链接的标题&quot;" target="_blank" rel="noopener">http://example.com/&quot;这是链接的标题&quot;</a>).</p>
+]]></content>
+      <tags>
+        <tag>测试</tag>
+      </tags>
   </entry>
 </search>
